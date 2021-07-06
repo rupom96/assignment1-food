@@ -1,8 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .ash-color{
     color: rgb(116, 114, 114);
@@ -12,13 +16,19 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
+}
+.half-widthimg{
+    width: 27%;
+    padding-left: 15%;
+    padding-top: 5%;
 }
 .link-button{
     text-decoration: none;
@@ -27,4 +37,10 @@ section{
     border-radius: 50px;
     font-weight: 400;
     background-image: linear-gradient(rgb(236, 167, 236), rgb(73, 10, 73));
+}
+.about-me{
+    padding-right: 25%;
+}
+.sec-two{
+    background-image: url(images/shapes/7.png);
 }
