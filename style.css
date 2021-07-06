@@ -8,13 +8,16 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 30px;
+}
 .ash-color{
     color: rgb(116, 114, 114);
 }
 .violet-color{
     color: rgb(134, 33, 134);
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 80px;
 }
@@ -43,4 +46,42 @@ section{
 }
 .sec-two{
     background-image: url(images/shapes/7.png);
+}
+.paddingmy{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+}
+.recipie{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+}
+.recipie img{
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+.center {
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+footer h3 {
+    text-align: center;
+    color: rgb(133, 130, 130);
+}
+footer p{
+    text-align: center;
+    color: honeydew;
+}
+.footer-design{
+    background-color: rgb(26, 2, 39);
+    padding-top: 5px;
+    padding-bottom: 80px;
+
 }
